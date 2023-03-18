@@ -3,7 +3,7 @@ const app=express();
 app.use(express.json());
 
 app.get("/",(req,res)=>{
-    res.send("Haii ,Welcome to SERVER1");
+    res.send("Haii ,Welcome to SERVER2");
 })
 
 app.listen(4500,()=>{
