@@ -5,7 +5,7 @@ app.use(express.json());
 const{userRouter}=require("./routes/user.router");
 
 app.get("/",(req,res)=>{
-    res.send("Haii ,Welcome to SERVER2");
+    res.send("<h1>Haii ,Welcome to SERVER 1</h1>");
 })
 
 app.use("/user",userRouter);
